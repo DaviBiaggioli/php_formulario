@@ -1,0 +1,36 @@
+@charset "UTF-8";
+.grid{
+	background-color: #06111C;
+	border-radius: 15px;
+	margin-left:  300px;
+	margin-right: 300px;
+	margin-top: 10px;
+}
+form{
+	text-align: center;
+	font-family: Arial;
+	color: #BEC7C7;
+}
+
+h1{
+    font-family: Arial;
+    text-align: center;
+    color:  #06111C;
+	background-color:#BB2020;
+	border-radius: 25px;
+	box-shadow: 20px, 20px, 20px;
+	margin: 30px;
+}
+
+h2{
+    font-family: Arial;
+    text-align: center;
+    color:#FFEB4D;
+}
+
+body{
+    font-family: Arial;
+    background-color: #121317;
+    text-align: center;
+
+}

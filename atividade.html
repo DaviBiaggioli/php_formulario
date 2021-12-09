@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulário avaliativo</title>
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+	
+	<div class="grid">
+		<h1>Formulário para avaliação</h1>
+			<h2>O que achou do site do CineMarte?</h2> <br><br>
+			<form name="avaliacao" method="get" action="">
+				<input type="radio" name="rating"> Muito bom
+				<input type="radio" name="rating"> Bom
+				<input type="radio" name="rating"> Regular
+				<input type="radio" name="rating"> Ruim
+				<input type="radio" name="rating"> Muito Ruim
+			</form>
+			<h2>Qual seção que você mais gostou?</h2> <br><br>
+			<form name="secao" method="get" action="">
+				<select name="gostou">
+					<option>Em cartaz</option>
+					<option>Trilha Sonora</option>
+					<option>Galeria de Fotos</option>
+					<option>Bilheteria</option>
+					<option>Outro</option>
+				</select>
+				Outro: <input type="text" name="nome"> <br>
+			</form>
+			<h2>Digite seus comentários no espaço abaixo:</h2> <br><br>
+			<form name="comentários" method="get" action="">
+				<textarea name="caixa de comentários" cols="50" rows="8"></textarea> <br><br>
+			</form>
+			<h2>Diga-nos como entrar em contato com você:</h2> <br><br>
+			<form name="avaliacao" method="get" action="">
+				Nome:<input type="text" name="nome" size="30" maxlength="20"> <br>
+				Email:<input type="text" name="email" size="30" maxlength="20"> <br>
+				Telefone:<input type="text" name="telefone" size="30" maxlength="20"> <br>
+				Instagram:<input type="text" name="instagram" size="30" maxlength="20"><br><br>
+				<input type="checkbox" name="novidades"> Desejo receber novidades. <br><br>
+				<input type="reset" name="limpar"> <br><br>
+				<input type="submit" name="enviar" action="Confirmado.php">
+			</form>
+	</div>
+</body>
+</html>
